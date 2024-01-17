@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -73,12 +74,15 @@ int main(){
 
     int totalamt = 0; 
 
-    bookfacility(bookings, facilities[0] , "26-10-2020", "16:00", "22:00", totalamt);
-    bookfacility(bookings, facilities[1] , "26-10-2020", "16:00", "20:00", totalamt);
-    bookfacility(bookings, facilities[0] , "26-10-2020", "16:00", "22:00", totalamt);
-    bookfacility(bookings, facilities[1] , "26-10-2020", "17:00", "21:00", totalamt);
-    bookfacility(bookings, facilities[0] , "26-10-2020", "10:00", "16:00", totalamt);
-    bookfacility(bookings, facilities[1] , "26-10-2020", "12:00", "14:00", totalamt);
+    
+    //bookfacility(bookings, facilities[1] , "26-10-2020", "16:00", "20:00", totalamt);
+    //bookfacility(bookings, facilities[0] , "26-10-2020", "16:00", "22:00", totalamt);
+    //bookfacility(bookings, facilities[1] , "26-10-2020", "17:00", "21:00", totalamt);
+    //bookfacility(bookings, facilities[0] , "26-10-2020", "10:00", "16:00", totalamt);
+    //bookfacility(bookings, facilities[1] , "26-10-2020", "12:00", "14:00", totalamt);
+    bookfacility(bookings, facilities[0] , "26-10-2020", "14:00", "22:00", totalamt);
 
     return 0;
 }
+
+
